@@ -1,0 +1,363 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;800;900&family=Playfair+Display:wght@400;500;600;900&display=swap" rel="stylesheet">
+        
+        <!-- link stylesheet
+        -->
+        <link rel="stylesheet" href="./css/style.css">
+        
+        <title>Paras SCO plots</title>
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                        <ul class="nav-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#aboutUs">About Us</a></li>
+                            <li class="nav-phone"><img src="./img/call_icon.svg" alt="icon" class="red"><a class = 'tel' href="tel:9311444719">9311444719</a></li>
+                            <!-- <li><a href="#contactUs"class="nav-btn btn-pri">Contact Us</a></li> -->
+                        </ul>
+                        <div class="burger">
+                            <div class="lin1"></div>
+                            <div class="lin2"></div>
+                            <div class="lin3"></div>
+                        </div>
+                        <div class="closeBtn">&times;</div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <a href="https://api.whatsapp.com/send?phone=9311444719" class="fixed right-8 left-auto whatsapp-logo">
+                    <div class="whatsp-style"><img src="./img/whatsapp.gif" alt="icon"></div></a>
+                <div class="container">
+                    <h1 class="hero-intro">Paras sco 114</h1>
+                    <div class="container__wrapper">
+                    <p>A better approach to invest your money in land or SCO plots "With first time in Gurgaon Exclusive SCO design project ".</p>                   
+                    <form onsubmit="sendNum(); reset(); return false;">
+                        <label for="contact">
+                            <input type="tel" placeholder="+91" class="phoneNum" id="contactNum" required>
+                        </label>
+                        <button class="hero-btn btn-pri" type="submit">Let's talk</button>
+                    </form>
+                </div>
+                </div>
+            </section>
+
+            <!-- about section -->
+            <section class="about-project">
+                <div class="container">
+                    <div class="why__container">
+                        <small
+                        >why?</small
+                            >
+                            <div class="ul">________</div>
+                        <h1>Paras SCO Plots - Commercial Plots at Sector 114 Gurgaon</h1>
+                        <p class="para">It is among the best places to own a parcel of land. It features a young neighbourhood and a good infrastructure on both a social and material level. The plots at Paras Arcade 114 are meticulously constructed with the best outside and internal design in mind. The facility is one of the best and is up-to-date with all the amenities needed for tranquil living. The area has a top-notch security system, plenty of water and electrical backup, open and vast green space, and helpful maintenance personnel, among many other things. These Paras SCO Plots are the best investment if you want to relax your body and soul amidst the beauty of nature. Get ready to explore a unique, intriguing place with a spectacular view when you purchase this fantastic SCO plot in this posh location.</p>
+                    </div>
+                    <a href="#" class="btn more-btn">know more <img src="./img/arrow_forward_24px_rounded.svg" alt=""></a>
+                </div>
+            </section>
+            
+            <!-- showcase section -->
+            <section class="showcase">
+                <div class="container">
+                        <div class="small-container">
+                            <small>category</small>
+                            <div>_______</div>
+                        </div>
+                        <h1>
+                            Popular Choices
+                        </h1>
+                    <div class="split">
+                        <div>
+                            <img src="./img/sco.jpeg" alt="card-img">
+                            <div class="card-text-wrap">
+                                <!-- <ul>
+                                    <li>Type - 1</li>
+                                </ul> -->
+                                <h2 class="sizes">104sq.yrd.</h2>
+                                <p class="pro-type">The total number of plots in 104sq.yrd. are X</p>
+                                <a href="#" id="myBtn" class="btn btn-cards popupBtn">More details</a>
+                                <!-- Popup modal -->
+                                    <!-- Trigger/Open The Modal -->
+                    <!-- <button id="myBtn" class="popupBtn">Download Brochure</button> -->
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="contact-form">
+                                <form onsubmit="sendEmail(); reset(); return false;">
+                                    <div>
+                                        <label for="name">Full Name</label>
+                                        <input required id="name" type="text" placeholder="Full name">
+                                    </div>
+                                    <div class="phone-label">
+                                        <label for="phone">Phone Number</label>
+                                        <input required id="phone" type="tel" name="phone"placeholder='+91'>
+                                    </div>
+                                        <!-- <div class="email-label">
+                                            <label for="phone">Email</label>
+                                            <input required type="email" id="userEmail"placeholder='email'>
+                                        </div> -->
+                                    <button class="btn-submit btn-accent" type="submit">Contact</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./img/sco.jpeg" alt="card-img">
+                            <div class="card-text-wrap">
+                                <!-- <p>
+                                . type-2
+                                </p> -->
+                                <h2 class="sizes">129sq.yrd.</h2>
+                                <p class="pro-type">The total number of plots in 129sq.yrd. are Y</p>
+                                <a href="#" class="btn btn-cards">More details</a>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./img/sco.jpeg" alt="card-img">
+                            <div class="card-text-wrap">
+                                <!-- <p>
+                                . type-3
+                                </p> -->
+                                <h2 class="sizes">140sq.yrd.</h2>
+                                <p class="pro-type">The total number of plots in 140sq.yrd. are Z</p>
+                                <a href="" class="btn btn-cards">More details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- location advantage section -->
+            <section class="location-sec">
+                    <div class="container">
+                        <div class="small-container small-right ">
+                            <small>Location advantages</small>
+                            <div>_________________________</div>
+                        </div>
+                        <h1>
+                            Paras SCO 114 
+                        </h1>
+                        <div class="split">
+                            <div class="text-container">
+                                <ul>
+                                    <li>Delhi and Gurgaon border</li>
+                                    <li>10 min drive from upcoming Diplomatic Enclave</li>
+                                    <li>0 Km from Delhi</li>
+                                    <li>15 min drive from upcoming Convention Center</li>
+                                    <li>Strategic location advantage</li>
+                                    <li>25 min drive from the IGI Airport</li>
+                                    <li>Fully commercial sector</li>
+                                </ul>
+                            </div>
+                            <div class="img-container">
+                                <img src="./img/location.jpg" alt="location image">
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- highlights -->
+            <section class="highlights-sec">
+                <div class="container high-container">
+                    <div class="small-container">
+                        <small>Highlights</small>
+                        <div>____________</div>
+                    </div>
+                        <h1>Paras SCO 114 </h1>
+                        <div class="split">
+                            <div class="img-container">
+                                <div class="img-container">
+                                    <img src="./img/sco.jpeg" alt="location image">
+                                </div>
+                            
+                            </div>
+                            <div>
+                            <ul>
+                                <li>Fully Commercial Sector</li>
+                                <li>Land Parcel of 3.5 Acres</li>
+                                <li>Ground + 4 Stories with Basement & Terrace Rights</li>
+                                <li>Ample car parking Space</li>
+                                <li>100% Power backup and Provision for individual AC units</li>
+                                <li>Almost 50,000 families living within 5 km radius</li>
+                                <li>This is going to be the next growth corridor</li>
+                                <li>Planned as Pedestrian Paradise
+                                    43 Limited Edition SCO Plots</li>
+                                <li>Very Low Maintenance</li>
+                            </ul>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="container">
+                    <div class="small-container small-right">
+                        <small>highlights</small>
+                        <div>_________</div>
+                    </div>
+                    <h1 class="highlight-right">
+                        Amenities
+                    </h1>
+                    <div class="split split-highlights">
+                        <div>
+                            <ul>
+                                <li>Signage Wall</li>
+                                <li>Feature/Arival Fountain</li>
+                                <li>Stage with LED Screen</li>
+                                <li>Event Lawn</li>
+                                <li>Flea Market</li>
+                                <li>Shade Trelus</li>
+                                <li>Grand Arrival Oval</li>
+                            </ul>
+                        </div>
+                        <div class="img-container">
+                            <img src="./img/sco.jpeg" alt="location image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About brand -->
+            <section class="about-brand" id="aboutUs">
+                <div class="container">
+                    <h1>ABOUT PARAS</h1>
+                    <div class="split">
+                        <div>
+                            <p>
+                                Shaping the realty landscape of India with world-class projects, Paras Buildtech is one of the verticals of the PARAS GROUP. With other diversified business interests like Dairy, Healthcare and Education, the Paras Group is more than five decades old, with a strong foundation based on positive legacy. The group is progressing rapidly towards tomorrow with a focus on delivering nutrition, caring for wellbeing and igniting young minds.
+                                With the tenets of trust and integrity as its corner stone, Paras Buildtech’s vision is to enhance lifestyles by crafting state-of-the-art residential projects, high-end commercial spaces, and international styled retail avenues.
+                            </p>
+                        </div>
+                        <div class="img-right">
+                            <img src="./img/sco.jpeg" alt="about_brand">
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="btn btn-sec">Download Brochure </a> -->
+                    <!-- Popup modal -->
+                                    <!-- Trigger/Open The Modal -->
+                    <button id="brochureBtn" class="popupBtn">Download Brochure</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="contact-form">
+                                <form onsubmit="brochureEmail(); reset(); return false;">
+                                    <div>
+                                        <label for="name">Full Name</label>
+                                        <input required id="bName" type="text" placeholder="Full name">
+                                    </div>
+                                    <div class="phone-label">
+                                        <label for="phone">Phone Number</label>
+                                        <input required id="bPhone" type="tel" name="phone"placeholder='+91'>
+                                    </div>
+                                        <!-- <div class="email-label">
+                                            <label for="phone">Email</label>
+                                            <input required type="email" id="userEmail"placeholder='email'>
+                                        </div> -->
+                                    <button class="btn-submit btn-accent" type="submit">Contact</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <div class="container site-plan-container">
+                    <img src="./img/site_plan.png" alt="site plan image">
+                </div> -->
+            </section>
+
+            
+            
+            <!-- contact section
+            -->
+            <section class="contact-sec" id="contactUs">
+                <div class="container">
+                    <div class="head-logo-cont">
+                        <div>
+                            <img src="./img/logo.png" alt="logo" class="logo-contact"></div>
+                        <h1>CONTACT US</h1>
+                    </div>
+                    <p class="contact-para">Let's talk about Love to hear from you!</p>
+                    <div class="contact-split">
+                        <div class="contact-form">
+                            <form onsubmit="contactEmail(); reset(); return false;">
+                                <div>
+                                    <label for="name">Full Name</label>
+                                    <input required id="cName" type="text" placeholder="Full name">
+                                </div>
+                                <div class="phone-label">
+                                    <label for="phone">Phone Number</label>
+                                    <input required id="cPhone" type="tel" name="phone"placeholder='+91'>
+                                </div>
+                                    <!-- <div class="email-label">
+                                        <label for="phone">Email</label>
+                                        <input required type="email" id="cEmail"placeholder='email'>
+                                    </div> -->
+                                <button class="btn-submit btn-accent" type="submit">Contact</button>
+                            </form>
+                        </div>
+                        <div class="contact-text">
+                                <div class="split-text">
+                                <div>
+                                    <h3>Corporate Office</h3>
+                                    <p>Paras Twin Towers, 11th Floor, Tower-B, Sec-54, Golf Course Road, Gurugram, Haryana 122002</p>
+                                </div>
+                                <div>
+                                    <h3>How Can We Help?</h3>
+                                    <p>+91 931144719</p>
+                                    <p>contact@paras.com</p>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="bar">-</div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2023 All Rights Reserved | Powered by Paras Group Private Limited | Policy | Term and Conditions</p>
+        </footer>
+        <script src="
+        https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="./app.js"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6X6TN7S2VG">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6X6TN7S2VG');
+</script>
+    </body>
+    </html>
