@@ -35,10 +35,13 @@
                     <a class="nav-link" href="#aboutUs">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contactUs">Pricing</a>
+                    <a class="nav-link" href="#overview">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link nav-call" href="tel:+9311444719"><img src="./img/call_icon.svg" alt="call-icon"> 9311444719</a>
+                    <a class="nav-link nav-call" href="tel:+9311444719"><img src="./img/call_icon.svg" alt="call-icon">9311444719</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-whtsp" href="tel:+9311444719"><img src="./img/whatsapp.gif" alt="call-icon"></a>
                   </li>
                 </ul>
               </div>
@@ -53,9 +56,6 @@
                     Paras Arcade 114
                 </h1>
                 <p>A better approach to invest your money in land or SCO plots "With first time in Gurgaon Exclusive SCO design project ".</p>
-                <!-- <div class="form">
-                    <a href="#home" class="hero-sec-btn">Let's talk Business</a> -->
-                    <!-- Button trigger modal -->
            <!-- Button trigger modal -->
 <button type="button" class="hero-sec-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
    Let's talk Business
@@ -77,9 +77,9 @@
                   <input type="text" placeholder="name" id="name"required>
                 </div>
                 <div class="phone">
-                  <input type="text" placeholder="Phone Number" id="phone" required>
+                  <input type="text" placeholder="Phone Number" id="phone" required> 
                 </div>
-                <button type="submit" onclick="message()" class="btn">Submit</button>
+                <button type="submit" onclick="message()" class="btn">Download Brochure</button>
               </form>
               <div class="message"> 
                 <div class="success" id="successMsg">
@@ -97,11 +97,11 @@
             <div class="bottom-fixed">
                <div class="flex">
                 <div>
-                    <h1>Above the Crowd.</h1>
+                    <h1 class="bottom-headline">Above the Crowd.</h1>
                 </div>
                 <div>
                     <h5>Starting From</h5>
-                    <h1>2.98 Cr* Onwards</h1>
+                    <h1>2.78 Cr* Onwards</h1>
                 </div>
                </div>
             </div>
@@ -161,7 +161,7 @@
 
 
     <!-- overview section -->
-    <section class="overiew">
+    <section class="overiew" id="overview">
         <div class="container flex overiew-flex">
             <div>
                 <h5>SIZES</h5>
@@ -169,18 +169,30 @@
             </div>
             <div>
                 <h5>UNITS</h5>
-                <h2>SCO Plots</h2>
+                <h2>43 SCO Plots</h2>
             </div>
             <div>
                 <h5>STARTING FROM</h5>
-                <h2>2.98 Cr* Onwards</h2>
+                <h2>2.78 Cr* Onwards</h2>
             </div>
             <div>
                 <h5>STATUS</h5>
                 <h2>New Launch</h2>
             </div>
         </div>
+
+        <!-- Payment Plan -->
+        <div class="payment-plan">
+            <h2>
+                Payment Plan
+            </h2>
+            <h5>
+                30: 70
+            </h5>
+        </div>
     </section>
+    
+
 
     <!--  Featured Section-->
     <section class="featured">
@@ -221,6 +233,7 @@
                             <h5>residential developments like:</h5>
                         </div>
                         <ul class="list-group">
+                            <li class="list-group-item">TATA Lavida</li>
                             <li class="list-group-item">Raheja Atharv</li>
                             <li class="list-group-item">ATS Kocoon</li>
                         </ul>
@@ -310,7 +323,6 @@
                         <li class="list-group-item">Almost 50,000 families living within 5 km radius</li>
                         <li class="list-group-item">This is going to be the next growth corridor</li>
                         <li class="list-group-item">lanned as Pedestrian Paradise 43 Limited Edition SCO Plots</li>
-                        <li class="list-group-item">lanned as Pedestrian Paradise 43 Limited Edition SCO Plots</li>
                         <li class="list-group-item">Very Low Maintenance</li>
                     </ul>
                 </div>
@@ -349,11 +361,41 @@
            <h2>ABOUT PARAS</h2>
         <div class="split">
         <div>
-        <p>shaping the realty landscape of india with world-class projects, paras buildtech is one of the verticals of the paras group. with other diversified business interests like dairy, healthcare and education, the paras group is more than five decades old, with a strong foundation based on positive legacy. the group is progressing rapidly towards tomorrow with a focus on delivering nutrition, caring for wellbeing and igniting young minds. with the tenets of trust and integrity as its corner stone, paras buildtech’s vision is to enhance lifestyles by crafting state-of-the-art residential projects, high-end commercial spaces, and international styled retail   avenues.
+        <p>Shaping the realty landscape of india with world-class projects, paras buildtech is one of the verticals of the paras group. with other diversified business interests like dairy, healthcare and education, the paras group is more than five decades old, with a strong foundation based on positive legacy. the group is progressing rapidly towards tomorrow with a focus on delivering nutrition, caring for wellbeing and igniting young minds. with the tenets of trust and integrity as its corner stone, paras buildtech’s vision is to enhance lifestyles by crafting state-of-the-art residential projects, high-end commercial spaces, and international styled retail   avenues.
         </p>
-            <a href="#" class="about-btn">
-                know more
-            </a>
+
+            <button type="button" class="download-btn about-btn" data-bs-toggle="modal"       data-bs-target="#staticBackdrop">
+               Know more
+            </button>
+
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Paras Arcade 114</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="box" onsubmit="sendNum(); reset(); return false;">
+                            <h3>Get in touch</h3>
+                            <div class="name">
+                            <input type="text" placeholder="name" id="contactName"required>
+                            </div>
+                            <div class="phone">
+                            <input type="text" placeholder="Phone Number" id="contactPhone" required>
+                            </div>
+                            <button type="submit" onclick="message()" class="btn">Send</button>
+                        </form>
+                        <div class="message"> 
+                            <div class="success" id="successMsg">
+                            W'll get back to you soon!
+                            </div>
+                            <div class="danger" id="alertId">Field can't be empty</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
         <div>
             <img src="./img/sco.jpeg" alt="paras-image">
@@ -395,7 +437,7 @@
                         <input id="email" class="email" type="email" required>
                     </div>
                 </div>
-                <button type="submit" class="cta">Submit</button>
+                <button type="submit" class="cta">Send</button>
             </form>
        </div>
         <div class="container footer-container">

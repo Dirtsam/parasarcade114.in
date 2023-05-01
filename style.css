@@ -54,6 +54,7 @@ button, a{
 }
 
 
+
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -79,9 +80,7 @@ body{
     left: 0;
     right: 0;
   }
-  .sticky + .content {
-    padding-top: 60px;
-  }
+
 
 /* logo */
 .navbar-brand{
@@ -153,6 +152,16 @@ body{
     text-align: end;
 }
 .bottom-fixed .flex > div + div >h1{
+    font-size: 3.875rem;
+}
+
+@media (max-width: 422px) {
+    
+.bottom-fixed .flex > div + div >h1{
+    font-size: 1.875rem;
+}
+}
+.bottom-fixed .bottom-headline {
     font-size: 1.875rem;
 }
 
@@ -925,3 +934,46 @@ body{
 button{
     cursor: pointer;
 }
+
+.navbar-nav{
+    align-items: center;
+}
+.nav-whtsp{
+    width: 100px;
+}
+
+.featured-split{
+    align-items: normal;
+}
+
+
+/* Restyle  */
+
+
+.modal .box a{
+    color: #fff;
+}
+
+
+.payment-plan{
+    width: min(100%, 400px);
+    margin-inline: auto;
+    padding: 2vh 1em;
+    border: 1px solid #dfeef1;
+    margin-top: 5rem;
+}
+
+.payment-plan h2{
+    color: #fff;
+    font-size: 4rem;
+}
+
+.payment-plan h5{
+    font-size: 2rem;
+    color: #ffff;
+}
+
+#overview{
+    padding-top:60px;
+}
+
